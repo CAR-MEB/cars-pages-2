@@ -1,0 +1,32 @@
+.retro_price {
+    color: grey;
+}
+
+.block {
+    padding: 10px 1px;
+    margin-right: 89px;
+}
+
+.box {
+    padding: .6rem 2rem;
+
+}
+
+.slider {
+    margin-left: 72px;
+}
+
+.retro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.desc_item {
+    padding: 0.8rem;
+}
+
+.retro_desc {
+    width: 120%;
+}
