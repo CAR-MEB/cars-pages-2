@@ -11,7 +11,7 @@ import img5 from '../../../assets/Cabriolet/cabriolet-5.jpg'
 
 const Limousine = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container_car}>
       <div className={style.block}>
       <div className={style.box}>
         <div className={style.limousine}>

@@ -12,6 +12,10 @@
 
 }
 
+.container_car {
+    background-color: #222222;
+}
+
 .slider {
     margin-left: 60px;
 }
@@ -25,6 +29,7 @@
 
 .desc_item {
     padding: 0.8rem;
+    color: white;
 }
 
 .premium_desc {

@@ -7,6 +7,10 @@
     margin-right: 89px;
 }
 
+.container_car {
+    background-color: #222222;
+}
+
 .box {
     padding: .6rem 2rem;
 
@@ -29,6 +33,7 @@
 
 .desc_item {
     padding: 0.8rem;
+    color: white;
 }
 
 .limousine_desc {

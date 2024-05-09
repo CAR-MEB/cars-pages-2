@@ -11,7 +11,7 @@ import img5 from '../../../assets/Premium/premium-5.jpg'
 
 const Premium = () => {
   return (
-    <div className={style.container}>
+    <div className={style.container_car}>
       <div className={style.block}>
       <div className={style.box}>
         <div className={style.premium}>
