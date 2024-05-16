@@ -1,4 +1,4 @@
-.limousine_price {
+.cabriolet_price {
     color: grey;
 }
 
@@ -24,7 +24,7 @@
     margin-left: 60px;
 }
 
-.limousine {
+.cabriolet {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -36,6 +36,6 @@
     color: white;
 }
 
-.limousine_desc {
+.cabriolet_desc {
     width: 115%;
 }

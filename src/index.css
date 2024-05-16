@@ -2,7 +2,6 @@
   max-width: 1140px;
   width: 100%;
   display: flex;
-  padding: 10px 1px;
 
 
 }
@@ -10,4 +9,17 @@
 
 a {
   text-decoration: none;
+}
+
+
+@media (max-width: 580px) {
+ .header {
+   width: 100%;
+ }
+}
+
+@media (min-width: 500px) {
+  .header {
+    width: 100%;
+  }
 }

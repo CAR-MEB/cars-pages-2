@@ -35,10 +35,10 @@ nav {
 .menu {
     width: 50%;
     height: 100vh;
-    background-color: gray;
+    background-color: black;
     position: absolute ;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 
@@ -49,9 +49,11 @@ nav {
 .visible {
     display: inherit;
     transform: translateY(100px);
-    display: flex;
     margin-left: -20px;
-    
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px -4px 5px rgb(255 255 255 / 50%);
 }
 
 
@@ -63,7 +65,9 @@ nav {
 .header .container {
     justify-content: space-between;
     align-items: center;
-
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 64px;
 }
 
 .header_link {

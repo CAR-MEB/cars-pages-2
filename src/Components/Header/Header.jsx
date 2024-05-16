@@ -44,7 +44,6 @@ const Header = () => {
               <Link to="Retro" className='header_link'>Retro</Link>
               <Link to="Sports" className='header_link'>Sports</Link>
           </nav>
-
         </div>
 
       </div>
