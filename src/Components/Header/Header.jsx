@@ -3,7 +3,6 @@ import './Header.css'
 import { Link } from 'react-router-dom'
 
 
-
 const Header = () => {
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
   const [menu_class, setMenuClass] = useState("menu hidden")
@@ -25,7 +24,7 @@ const Header = () => {
   return (
     <div className='header'>
         <nav>
-        <Link to="/" className='header_link logo'>Logo</Link>
+        <Link to="/" className='header_link logo'>logo</Link>
 
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>

@@ -10,6 +10,19 @@ import img3 from '../../../assets/Retro/retro-3.jpg'
 import img4 from '../../../assets/Retro/retro-4.jpg'
 import img5 from '../../../assets/Retro/retro-5.jpg'
 
+import bugatti1 from '../../../assets/Retro/retro-bugatti_1.jpg'
+import bugatti2 from '../../../assets/Retro/retro-bugatti_2.jpg'
+import cadillac1 from '../../../assets/Retro/retro-cadillac_1.jpg'
+import cadillac2 from '../../../assets/Retro/retro-cadillac_2.jpg'
+import chevrolet1 from '../../../assets/Retro/retro-chevrolet_1.jpg'
+import chevrolet2 from '../../../assets/Retro/retro-chevrolet_2.jpg'
+import ford1 from '../../../assets/Retro/retro-ford_1.jpg'
+import ford2 from '../../../assets/Retro/retro-ford_2.jpg'
+import horch1 from '../../../assets/Retro/retro-horch_1.jpg'
+import horch2 from '../../../assets/Retro/retro-horch_2.jpg'
+
+
+
 
 const Retro = () => {
   return (
@@ -42,7 +55,17 @@ const Retro = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={img1}
+              src={bugatti1}
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h5>Second slide label</h5>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={bugatti2}
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -71,7 +94,7 @@ const Retro = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={img1}
+              src={img2}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -81,7 +104,17 @@ const Retro = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={img2}
+              src={horch1}
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h5>Second slide label</h5>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={horch2}
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -120,7 +153,17 @@ const Retro = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={img2}
+              src={chevrolet1}
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h5>Second slide label</h5>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={chevrolet2}
               alt="Second slide"
             />
             <Carousel.Caption>
@@ -159,7 +202,17 @@ const Retro = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={img3}
+            src={cadillac1}
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h5>Second slide label</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={cadillac2}
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -198,7 +251,17 @@ const Retro = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={img3}
+            src={ford1}
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h5>Second slide label</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={ford2}
             alt="Second slide"
           />
           <Carousel.Caption>
