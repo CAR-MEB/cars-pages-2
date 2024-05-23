@@ -15,6 +15,10 @@ import jaguar1 from '../../../assets/Cabriolet/cabriolet_jaguar-1.jpg'
 import jaguar2 from '../../../assets/Cabriolet/cabriolet_jaguar-2.jpg'
 import ferrari1 from '../../../assets/Cabriolet/cabriolet_ferrari-1.jpg'
 import ferrari2 from '../../../assets/Cabriolet/cabriolet_ferrari-2.jpg'
+import bently1 from '../../../assets/Cabriolet/cabriolet_bently-1.jpg'
+import bently2 from '../../../assets/Cabriolet/cabriolet_bently-2.jpg'
+import bmw1 from '../../../assets/Cabriolet/cabriolet_bmw-1.jpg'
+import bmw2 from '../../../assets/Cabriolet/cabriolet_bmw-2.jpg'
 
 const Cabriolet = () => {
   return (
@@ -188,17 +192,27 @@ const Cabriolet = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h5>First slide label</h5>
+            <h5>bentley-white</h5>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={img3}
+            src={bently1}
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h5>Second slide label</h5>
+            <h5>bentley-pink</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={bently2}
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h5>bentley-amber</h5>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -233,7 +247,17 @@ const Cabriolet = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={img3}
+            src={bmw1}
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h5>Second slide label</h5>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={bmw2}
             alt="Second slide"
           />
           <Carousel.Caption>

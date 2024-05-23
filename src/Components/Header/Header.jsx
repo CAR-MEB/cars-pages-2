@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import photo from '../../assets/msg689684673-73765.jpg'
 
 
-
 const Header = () => {
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
   const [menu_class, setMenuClass] = useState("menu hidden")
@@ -26,7 +25,11 @@ const Header = () => {
   return (
     <div className='header'>
         <nav>
+ matai-1
         <Link to="/" className='header_link logo'><img id='img-logo' src={photo} alt="" /></Link>
+=======
+        <Link to="/" className='header_link logo'>logo</Link>
+ main
 
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>
