@@ -7,6 +7,7 @@ import Retro from './Components/Cars/Retro/Retro';
 import Premium from './Components/Cars/Premium/Premium';
 import Cabriolet from './Components/Cars/Cabriolet/Cabriolet';
 import Header from './Components/Header/Header';
+import Home from './home-page/home.jsx';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
     <Header />
       <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='/retro' element={<Retro />}/>
         <Route path='/premium' element={<Premium />}/>
         <Route path='/cabriolet' element={<Cabriolet />}/>
