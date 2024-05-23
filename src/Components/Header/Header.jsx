@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
-
+import photo from '../../assets/msg689684673-73765.jpg'
 
 
 const Header = () => {
@@ -25,7 +25,11 @@ const Header = () => {
   return (
     <div className='header'>
         <nav>
-        <Link to="/" className='header_link logo'>Logo</Link>
+ matai-1
+        <Link to="/" className='header_link logo'><img id='img-logo' src={photo} alt="" /></Link>
+=======
+        <Link to="/" className='header_link logo'>logo</Link>
+ main
 
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class}></div>
